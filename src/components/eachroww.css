@@ -1,0 +1,122 @@
+
+.alignImageandPara{
+    display: flex;
+    justify-content: space-around;
+}
+.avacadoImage{
+    height:45px;
+}
+
+.listItemcon{
+    display: flex;
+    color:rgb(64, 63, 62);
+    border-bottom: 1px solid grey;
+}
+.imageAndparaCon{
+    align-items: center;
+    display:flex;
+    width:30%;
+}
+.status-con{
+    display: flex;
+    align-items: center;
+   
+}
+.wrapStatus{
+    width:35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cross{
+    color:grey;
+    cursor: pointer;
+    margin-right: 15px;
+    font-weight: 100;
+    cursor:pointer;
+}
+.redcolor-cross{
+    color:rgb(151, 55, 55);
+    margin-right: 15px;
+    font-weight: 100;
+    cursor:pointer;
+    
+}
+.orangecolor-cross{
+    color: rgb(218, 105, 30);
+    margin-right: 15px;
+    font-weight: 100;
+    cursor:pointer;
+}
+.approveBtn{
+   color:white;
+   width:80px;
+   border-width:0px;
+   border-radius:14px;
+   padding:5px;
+   background-color: rgb(99, 217, 99);
+}
+.approvedTickBtn{
+    background-color: transparent;
+    background-color:  rgb(99, 217, 99);
+    border-width:0px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.normaltickBtn{
+    background-color: rgb(233, 191, 191);
+    border-radius: 50%;
+    border-width:0px;
+    margin-right: 12px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .clickable-item {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-close-con{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+  }
+  .close-button{
+    background-color: transparent;
+    font-weight: bold;
+    border-width:0px;
+  }
+  .missing-urgent-btn{
+    background-color: rgb(218, 36, 30);
+    color:white;
+    border-radius:14px ;
+    border-width:0px;
+    padding:5px;
+    cursor:pointer;
+   
+  }
+  .missing-btn{
+    background-color: rgb(218, 105, 30);
+    width:70px;
+    cursor:pointer;
+  }
+  

@@ -1,0 +1,81 @@
+.ListofAllProds-con{
+    margin-left:40px ;
+    margin-right: 40px;
+    margin-top:8px;
+    border:1px solid rgb(219, 206, 206) ;
+    padding:20px;
+    border-radius:8px;
+    height:95vh;/*updated*/
+   
+  
+}
+.search-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-style{
+    border: 2px solid grey;
+    border-radius:8px;
+    width:20%;
+}
+.back-button-style{
+    border-width:1px;
+     border:1px solid  #146d20;
+     color: #146d20;
+     font-weight: 500;
+     background-color: white;
+     border-radius:15px;
+     margin-right: 20px;
+     cursor: pointer;
+     padding:3px;
+     background: transparent;
+ }
+ .printer-style{
+   
+    color: #146d20;
+   height:30px;
+ }
+ .printerandbtnCon{
+    display: flex;
+    align-items: center;
+ }
+ 
+
+  
+  
+  .productCol{
+    width:30%;
+  }
+
+  .brandCol{
+    width:10%;
+  }
+  .priceCol{
+    width:10%;
+  }
+  .quantityCol{
+    width:10%;
+  }
+  .totalCol{
+    width:10%;
+  }
+  .statusCol{
+    width: 35%;
+  }
+
+ 
+
+  .list-con{
+    list-style: none;
+    font-size:14px;
+  }
+  .columns-con{
+    display: flex;
+    text-align: left;
+  color:rgb(89, 106, 120);
+    border-bottom:1px solid  rgb(167, 160, 160);
+  }
+  .productsTable{
+    height:100%;
+  }
